@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-
 const GenderCheckBox = ({ onCheckboxChange, selectedGender }) => {
 	return (
 		<div className="flex">
