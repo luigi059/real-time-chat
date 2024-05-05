@@ -35,7 +35,7 @@ const SearchInput = () => {
 			/>
 			<button
 				type="submit"
-				className="btn btn-circle bg-sky-500 text-white border-none"
+				className="btn btn-circle bg-primary text-white border-none"
 			>
 				<IoSearch className="w-6 h-6 outline-none" />
 			</button>

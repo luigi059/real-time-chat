@@ -55,7 +55,10 @@ const Login = () => {
 						{"Don't"} have an account?
 					</Link>
 					<div>
-						<button className="btn btn-block btn-sm mt-2" disabled={loading}>
+						<button
+							className="btn btn-block btn-sm mt-2 bg-secondary"
+							disabled={loading}
+						>
 							{loading ? (
 								<span className="loading loading-spinner"></span>
 							) : (

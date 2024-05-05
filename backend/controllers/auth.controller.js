@@ -44,10 +44,10 @@ export const signup = async (req, res) => {
 			res.status(400).json({ error: 'invalid User data' });
 		}
 	} catch (error) {
-		console.log('Error in signup controller', error.message);
+		// console.log('Error in signup controller', error.message);
 		res.status(500).json({ error: 'Internal Server Error' });
 	}
-	console.log('signup');
+	// console.log('signup');
 };
 
 export const login = async (req, res) => {
@@ -72,7 +72,7 @@ export const login = async (req, res) => {
 			profilePic: user.profilePic,
 		});
 	} catch (error) {
-		console.log('Error in login controller', error.message);
+		// console.log('Error in login controller', error.message);
 		res.status(500).json({ error: 'Internal Server Error' });
 	}
 };
@@ -82,7 +82,7 @@ export const logout = (req, res) => {
 		res.cookie('jwt', '', { maxAge: 0 });
 		res.status(200).json({ message: 'Logged out successfully' });
 	} catch (error) {
-		console.log('Error in login controller', error.message);
+		// console.log('Error in login controller', error.message);
 		res.status(500).json({ error: 'Internal Server Error' });
 	}
 };

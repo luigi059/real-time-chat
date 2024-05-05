@@ -15,14 +15,11 @@ body {
 	width: 8px;
 }
 ::-webkit-scrollbar-track {
-	background: #555;
+	background: #1a103d;
 }
 ::-webkit-scrollbar-thumb {
-	background: #121212;
+	background: #345da7;
 	border-radius: 5px;
-}
-::-webkit-scrollbar-thumb:hover {
-	background: #242424;
 }
 
 /* SHAKE ANIMATION ON HORIZONTAL DIRECTION */
